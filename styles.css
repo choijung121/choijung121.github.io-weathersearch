@@ -1,0 +1,96 @@
+html{
+  background: #72b9f7;
+}
+.heading{
+  background: #72b9f7;
+}
+.navbar{
+  height: 100px;
+}
+.navbar-brand{
+  font-size: 25px;
+  color: #ffffff !important;
+}
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search{
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 40px;
+}
+.searchCity{
+  width: 100%;
+}
+input[type="text"]::placeholder{
+  text-align: center;
+  color: black;
+}
+input.searchCity{
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border: #95c8f5;
+}
+.searchSubmit{
+  width: 18%;
+  background-color: #95c8f5;
+  border-radius: 0px 10px 10px 0px;
+  border: #95c8f5;
+  color: white;
+}
+
+.wrapBox{
+  padding: 60px;
+  /* margin: 40px; */
+}
+.box{
+  justify-content: center;
+  display: block;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  background-color: #95c8f5;
+  border: #95c8f5;
+}
+.boxContent{
+  text-align: left;
+  padding: 20px
+}
+h2{
+  color: #ffffff;
+}
+.cityName{
+  padding-top: 20px;
+  font-size: 25px;
+}
+.mainTemp{
+  font-size: 90px;
+}
+/* .images{
+  text-align: center;
+  position: absolute;
+  right: 40%;
+} */
+img{
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  width: 200px;
+  float: right;
+  position: absolute;
+  right: 20%;
+  top: 22%;
+  left: 60%;
+}
+p{
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px
+}
