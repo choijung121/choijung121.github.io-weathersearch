@@ -67,12 +67,17 @@ h2{
 }
 .mainTemp{
   font-size: 50px;
+  /* align-items: left; */
 }
 .maxMin{
   font-size: 30px;
 }
+.images{
+  align-items: left;
+}
 img{
   padding-bottom: 20px;
+  /* align-items: left; */
 }
 p{
   /* color: white !important; */
@@ -140,4 +145,10 @@ td {
 
 ul{
   font-size: 20px;
+}
+
+
+footer{
+  text-align: center;
+  bottom: 0; 
 }
